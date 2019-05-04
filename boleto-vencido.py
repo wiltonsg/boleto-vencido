@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # coding=utf-8
 
+# Criado em: 21 Nov 2018
+# Update em: 04 Mai 2019
+# Autor: Wilton Gonçalves - wilton.sgoncalves@gmail.com
+
 from datetime import *
 
 # Calculando de dias em atraso
