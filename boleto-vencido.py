@@ -24,18 +24,18 @@ valor = float(input('Digite o valor do boleto: '))
 print('Informe somente o valor sem o simbolo "%" e se tiver vírgula coloque ponto no lugar')
 multa = float(input('Digite a porcentagem da multa: '))
 multa = (valor * (multa / 100))
-print('Valor do boleto com multa é: ', round(multa, ndigits=2))
+print('Valor do boleto com multa é R$: ', round(multa, ndigits=2))
 
 # Calculo do juros
 print('Informe somente o valor sem o simbolo "%" e se tiver vírgula coloque ponto no lugar')
 juros = float(input('Digite a porcentagem do juros: '))
 juros = (valor * (juros / 100 * (delta.days)))
-print('Valor do boleto com juros é: ', round(juros, ndigits=2))
+print('Valor do boleto com juros é R$: ', round(juros, ndigits=2))
 
 # Soma do juros e multa
 mj = multa + juros
-print('Total de multa e juros é: ', round(mj, ndigits=2))
+print('Total de multa e juros é R$: ', round(mj, ndigits=2))
 
 # Total
 total = valor + mj
-print('Valor total a pagar é: ', round(total, ndigits=2))
+print('Valor total a pagar é R$: ', round(total, ndigits=2))
