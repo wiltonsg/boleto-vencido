@@ -2,10 +2,10 @@
 # coding=utf-8
 
 # Criado em: 21 Nov 2018
-# Update em: 04 Mai 2019
+# Update em: 18 Nov 2022
 # Autor: Wilton Gonçalves - wilton.sgoncalves@gmail.com
 
-from datetime import *
+from datetime import datetime
 
 # Calculando de dias em atraso
 print('Digite a data no seguinte formato: 01/11/2222')
